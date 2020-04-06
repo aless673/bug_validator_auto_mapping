@@ -1,0 +1,34 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+.idea
+.~lock*
+*.php~
+/ignored
+/app/config/parameters.yml
+/phpunit.xml
+/var/*
+!/var/bootstrap.php.cache
+!/var/SymfonyRequirements.php
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/log
+/var/log/*
+!var/log/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/node_modules/
+/public/build/
+/docker/data
+.php_cs.cache
+
+###< symfony/framework-bundle ###
